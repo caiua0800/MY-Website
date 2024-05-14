@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    color: #ededed;
+    background: linear-gradient(to bottom, rgb(57, 41, 201), rgb(0, 0, 0));
+
+}
+
+
+.navbar-brand{
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: rgb(0, 132, 248);
+    text-shadow: 1px 1px rgba(5, 7, 114, 0.589);
+}
+
+.active{
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+    color: rgb(2, 141, 255) !important;
+    transition: .3s;
+}
+
+.nav-link:not(.active) {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+
+    border-bottom: 2px solid rgba(255, 255, 255, 0);
+    transition: .3s;
+}
+
+.nav-link:not(.active):hover{
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+    color: rgb(2, 141, 255) !important;
+    transition: .3s;
+}
+
+@media (max-width: 576px) {
+    .nav-flex {
+        width: 100%;
+    }
+}
+
+.idiomas{
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.idioma{
+    font-weight: 500;
+    color: rgb(4, 52, 94);
+    width: 30px;
+    height: 30px;
+    border: 0;
+    background-color: rgba(255, 255, 255, 0.267);
+    padding: 5%;
+    border-radius: 50%;
+    box-sizing: border-box;
+    transition: .3s;
+}
+
+.idioma-nav{
+    display: none;
+    width: 100%;
+}
+
+.idioma:hover{
+    color: rgb(2, 18, 32);
+    background-color: rgba(255, 255, 255, 0.4);
+    transition: .3s;
+}
+
+
+.idioma-nav-button{
+    padding: 3px; 
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    font-size: 14px !important ;
+    background-color: rgba(244, 244, 247, 0.199) ;
+}
+
+
+.home{
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 10% 10%;
+    flex-direction: row;
+
+    justify-content: space-around;
+}
+
+.div-imagem-caiua{
+    width: 350px;
+}
+
+.img-caiua{
+    width: 100%;
+}
+
+#my-whatsapp{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(61, 199, 18);
+    position: fixed;
+    right: 20px;
+    bottom: 100px;
+}
+
+.whatsapp-logo{
+    width: 30px;
+}
+
+@keyframes showRight {
+    100% {
+        width: 0;
+    }
+}
+
+
+h3{
+    color: #00abf0 !important;
+    font-weight: 600;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+
+
+    .idioma-nav{
+        display: flex;
+        gap: 10px;
+        justify-content: end;
+    }
+
+    .home{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        height: 100%;
+    }
+
+    .coisas-div{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+}

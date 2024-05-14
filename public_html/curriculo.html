@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Projetos</title>
+    <link rel="icon" type="image/x-icon" href="./logo.png">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./src/curriculo.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <div class="d-flex nav-flex justify-content-between">
+                <a class="navbar-brand" href="#">Dev Mello.</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse justify-content-lg-center justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav gap-lg-5">
+                    <a class="nav-link original" aria-current="page" href="./index.html">Home</a>
+                    <a class="nav-link original" href="./projetos.html">Projetos</a>
+                    <a class="nav-link active original" href="./curriculo.html">Currículo</a>
+                    <a class="nav-link original" href="./contato.html">Contato</a>
+
+                    <a class="nav-link english" aria-current="page" href="#">Home</a>
+                    <a class="nav-link english" href="./projetos.html">Projects</a>
+                    <a class="nav-link active english" href="./curriculo.html">Resume</a>
+                    <a class="nav-link english" href="./contato.html">Contact</a>
+
+                    <div class="idioma-nav">
+                        <button id="PT-NAV" class="nav-link text-end idioma-nav-button">PT</button>
+                        <button id="EN-NAV" class="nav-link text-end idioma-nav-button">EN</button>
+                    </div>
+
+                </div>
+            </div>
+            <div class="order-lg-1 d-flex gap-2 idiomas">
+                <button id="PT" class="d-lg-block d-none d-sm-none idioma">PT</button>
+                <button id="EN" class="d-lg-block d-none d-sm-none idioma">EN</button>
+            </div>
+        </div>
+    </nav>
+
+    <section class="home">
+        <div class="div-imagem-caiua">
+            <img class="img-caiua" src="./src/imgs/imagem-caiua.png
+            " alt="imagem de caiuã">
+        </div>
+
+        <div class="coisas-div">
+            <div class="certificados coisas">
+                <h3>CERTIFICADOS</h3>
+    
+                <ul>
+                    <li>Full Stack Development</li>
+                    <li>C1 English Level by Escape Campus - Londres</li>
+                    <li class="original">Design Gráfico</li>
+                    <li class="english">Graph</li>
+                    <li class="original">Informática Avançada</li>
+                    <li class="english">Advanced Informatic</li>
+                    <li>Azure e AWS</li>
+                </ul>
+            </div>
+            <hr>
+            <div class="graduacao">
+                <h3>
+                    GRADUAÇÃO
+                </h3>
+                <ul>
+                    <li class="original">Atualmente sexto semestre de Engeharia da Computação - UTFPR</li>
+                    <li class="english">Currently in the sixth semester of Computer Engineering - UTFPR</li>
+                </ul>
+            </div>
+            <hr>
+
+            <div class="idiomas">
+                <h3 class="original">IDIOMAS</h3>
+                <h3 class="english">Languages</h3>
+                <ul>
+                    <li class="original">Inglês - C1</li>
+                    <li class="english">English - C1</li>
+                    <li class="original">Italiano - B1</li>
+                    <li class="english">Italian - B1</li>
+                    <li class="original">Alemão - B2</li>
+                    <li class="english">German - B2</li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+
+
+    <a id="my-whatsapp" href="https://wa.me/5517992562727?text=Olá%2C%20vim%20pelo%20seu%20site"><img class="whatsapp-logo" src="./src/imgs/whatsapp-logo.png" alt="whatsapp"></a>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="./src/curriculo.js"></script>
+</body>
+</html>

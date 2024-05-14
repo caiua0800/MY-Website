@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Mello</title>
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./src/index.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <div class="d-flex nav-flex justify-content-between">
+                <a class="navbar-brand" href="#">Dev Mello.</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse justify-content-lg-center justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav gap-lg-5">
+                    <a class="nav-link active original" aria-current="page" href="./index.html">Home</a>
+                    <a class="nav-link original" href="./projetos.html">Projetos</a>
+                    <a class="nav-link original" href="./curriculo.html">Currículo</a>
+                    <a class="nav-link original" href="./contato.html">Contato</a>
+
+                    <a class="nav-link active english" aria-current="page" href="./index.html">Home</a>
+                    <a class="nav-link english" href="./projetos.html">Projects</a>
+                    <a class="nav-link english" href="./curriculo.html">Resume</a>
+                    <a class="nav-link english" href="./contato.html">Contact</a>
+
+                    <div class="idioma-nav">
+                        <button id="PT-NAV" class="nav-link text-end idioma-nav-button">PT</button>
+                        <button id="EN-NAV" class="nav-link text-end idioma-nav-button">EN</button>
+                    </div>
+
+                </div>
+            </div>
+            <div class="order-lg-1 d-flex gap-2 idiomas">
+                <button id="PT" class="d-lg-block d-none d-sm-none idioma">PT</button>
+                <button id="EN" class="d-lg-block d-none d-sm-none idioma">EN</button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="d-flex justify-content-center flex-column">
+            <div class="boas-vindas w-100 text-center original">
+                <h1>Sejam bem vindo(a) à meu website</h1>
+                <h1>Prazer, Caiuã Mello!</h1>
+            </div>
+            <div class="boas-vindas w-100 text-center english">
+                <h1>Welcome to my website</h1>
+                <h1>Pleasure, Caiuã Mello!</h1>
+            </div>
+            <div class="apresentacao d-flex flex-column justify-content-center text-center">
+                <h2 class="original">Deixe eu me apresentar</h2>
+                <h4 class="original">Sou Engenheiro de Software</h4>
+                <h4 class="english">I´m a Software Engineer</h4>
+                <h2 class="english">Let me introduce myself</h2>
+                <p id="texto_apresentacao" class="original">
+                    Sou natural do Mato Grosso do Sul e desde cedo me interessei por tecnologia,
+                    por isso ingressei na faculdade de Engenharia da computação na UTFPR, e ao
+                    longo dos anos fiz vários cursos para me certificar, dentre eles, um de Desenvolvimento 
+                    Full-Stack, Web Scrapping, e possuo inglês nível C1 pela Escape Campus - Londres.
+                </p>
+                <p id="texto_apresentacao_ingles" class="english">
+                    I am From the state Mato Grosso do Sul In Brazil and since i was a kid i got myself interested by tecnology,
+                    For this reason i joined a Computer Engineering Course at UTFPR, a Federal University in Brazil,
+                    And over the years, I have taken several courses to certify myself, including one in Full-Stack Development,
+                     Web Scraping, and I have a C1 level in English from Escape Campus - London.
+                </p>
+                <span id="ver_mais" class="original">...Ver Mais</span>
+                <span id="see_more" class="english">...See More</span>
+            </div>
+            <div class="w-100 d-flex gap-2">
+                <div class="logos">
+                    <div class="logos-slide">
+                        <img class="language-logo logo-container" src="./src/imgs/HTML.png" alt="linguagem de programação">
+                        <img class="language-logo logo-container" src="./src/imgs/CSS.png" alt="linguagem de programação">
+                        <img class="language-logo logo-container" src="./src/imgs/BOOTSTRAP.png" alt="linguagem de programação">
+                        <img class="language-logo logo-container" src="./src/imgs/JS.png" alt="linguagem de programação">
+                        <img class="language-logo logo-container" src="./src/imgs/JAVA.png" alt="linguagem de programação">
+                        <img class="language-logo logo-container" src="./src/imgs/C++.png" alt="linguagem de programação">
+                        <img class="language-logo logo-container" src="./src/imgs/C.png" alt="linguagem de programação">
+                        <img class="language-logo logo-container" src="./src/imgs/PYTHON.png" alt="linguagem de programação">
+                        <img class="language-logo logo-container" src="./src/imgs/react-logo.png" alt="linguagem de programação">
+                        <img class="language-logo logo-container" src="./src/imgs/FIREBASE.png" alt="linguagem de programação">
+                        <img class="language-logo logo-container" src="./src/imgs/MONGO.png" alt="linguagem de programação">
+                    </div>
+
+                    <div class="logos-slide">
+                        <img class="language-logo logo-container" src="./src/imgs/HTML.png" alt="linguagem de programação">
+                        <img class="language-logo logo-container" src="./src/imgs/CSS.png" alt="linguagem de programação">
+                        <img class="language-logo logo-container" src="./src/imgs/BOOTSTRAP.png" alt="linguagem de programação">
+                        <img class="language-logo logo-container" src="./src/imgs/JS.png" alt="linguagem de programação">
+                        <img class="language-logo logo-container" src="./src/imgs/JAVA.png" alt="linguagem de programação">
+                        <img class="language-logo logo-container" src="./src/imgs/C++.png" alt="linguagem de programação">
+                        <img class="language-logo logo-container" src="./src/imgs/C.png" alt="linguagem de programação">
+                        <img class="language-logo logo-container" src="./src/imgs/PYTHON.png" alt="linguagem de programação">
+                        <img class="language-logo logo-container" src="./src/imgs/react-logo.png" alt="linguagem de programação">
+                        <img class="language-logo logo-container" src="./src/imgs/FIREBASE.png" alt="linguagem de programação">
+                        <img class="language-logo logo-container" src="./src/imgs/MONGO.png" alt="linguagem de programação">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <a id="my-whatsapp" href="https://wa.me/5517992562727?text=Olá%2C%20vim%20pelo%20seu%20site"><img class="whatsapp-logo" src="./src/imgs/whatsapp-logo.png" alt="whatsapp"></a>
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="./src/index.js"></script>
+</body>
+</html>
